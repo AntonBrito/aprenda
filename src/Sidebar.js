@@ -1,11 +1,12 @@
 import React from 'react'
-import './Sidebar.css'
+import './Sidebar.css';
+import HomeIcon from '@material-ui/icons/Home';
 
 function Sidebar() {
   return (
     <div className="sidebar">
-      {/* SIdebar Icons */}
-      
+      <HomeIcon />
+
       {/* SIdebar option */}
       {/* SIdebar option */}
       {/* SIdebar option */}
