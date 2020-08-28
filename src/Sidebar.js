@@ -9,6 +9,7 @@ import NotificationsActiveIcon from '@material-ui/icons/NotificationsActive';
 import PersonIcon from '@material-ui/icons/Person';
 import FolderSharedIcon from '@material-ui/icons/FolderShared';
 import BookmarkBorderIcon from '@material-ui/icons/BookmarkBorder'
+import { Button } from "@material-ui/core"
 
 function Sidebar() {
   return (
@@ -23,7 +24,8 @@ function Sidebar() {
       <SidebarOption Icon={BookmarkBorderIcon} text="My Bookmarks"/>
       <SidebarOption Icon={AddIcon} text="New Beans"/>
 
-      {/* Button -> today's Beans */}
+      {/*Button to Add new Been*/}
+      <Button>Beens</Button>
     </div>
   )
 }
