@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import Sidebar from './Sidebar.js'
-import SidebarOption from './SidebarOption';
 
 
 function App() {
@@ -12,10 +11,8 @@ function App() {
       {/* Sidebar */}
       <Sidebar />
 
-      {/* <SidebarOption />
-      <SidebarOption />
-      <SidebarOption /> */}
       {/* Feed */}
+      
       {/* Widgets */}
     </div>
   );
