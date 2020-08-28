@@ -8,7 +8,8 @@ import PageviewIcon from '@material-ui/icons/Pageview';
 import NotificationsActiveIcon from '@material-ui/icons/NotificationsActive';
 import PersonIcon from '@material-ui/icons/Person';
 import FolderSharedIcon from '@material-ui/icons/FolderShared';
-import BookmarkBorderIcon from '@material-ui/icons/BookmarkBorder'
+import BookmarkBorderIcon from '@material-ui/icons/BookmarkBorder';
+import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
 import { Button } from "@material-ui/core"
 
 function Sidebar() {
@@ -22,10 +23,10 @@ function Sidebar() {
       <SidebarOption Icon={PersonIcon} text="My Profile"/>
       <SidebarOption Icon={FolderSharedIcon} text="My Beans"/>
       <SidebarOption Icon={BookmarkBorderIcon} text="My Bookmarks"/>
-      <SidebarOption Icon={AddIcon} text="New Beans"/>
+      <SidebarOption Icon={MoreHorizIcon} text="More"/>
 
       {/*Button to Add new Been*/}
-      <Button>Beens</Button>
+      <Button variant="outlined" className="sidebar__aprenda">New Beans</Button>
     </div>
   )
 }
