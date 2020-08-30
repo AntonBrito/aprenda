@@ -3,7 +3,6 @@ import './Sidebar.css';
 import WbIncandescentIcon from '@material-ui/icons/WbIncandescent';
 import HomeIcon from '@material-ui/icons/Home';
 import SidebarOption from './SidebarOption';
-import AddIcon from '@material-ui/icons/Add';
 import PageviewIcon from '@material-ui/icons/Pageview';
 import NotificationsActiveIcon from '@material-ui/icons/NotificationsActive';
 import PersonIcon from '@material-ui/icons/Person';
@@ -25,7 +24,7 @@ function Sidebar() {
       <SidebarOption Icon={BookmarkBorderIcon} text="My Bookmarks"/>
       <SidebarOption Icon={MoreHorizIcon} text="More"/>
 
-      {/*Button to Add new Been*/}
+      {/*Button to Add new Bean*/}
       <Button variant="outlined" className="sidebar__aprenda">New Beans</Button>
     </div>
   )
