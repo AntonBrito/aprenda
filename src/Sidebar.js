@@ -11,10 +11,12 @@ import BookmarkBorderIcon from '@material-ui/icons/BookmarkBorder';
 import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
 import { Button } from "@material-ui/core"
 
+
+
 function Sidebar() {
   return (
     <div className="sidebar">
-      <WbIncandescentIcon />
+      <WbIncandescentIcon className="sidebar__lampIcon"/>
       
       <SidebarOption Icon={HomeIcon} text="Home"/>
       <SidebarOption Icon={PageviewIcon} text="Explore"/>
