@@ -8,6 +8,7 @@ function BeanBox() {
         <div className="beanBox__input">
           <Avatar />
           <input placeholder="What you learned today?"></input>
+          <input placeholder="Enter an img URL"></input>
         </div>
         <Button>CoolBeans</Button>
       </form>
