@@ -1,10 +1,16 @@
 import React from 'react';
 import "./BeanBox.css"
-
+import { Avatar, Button } from "@material-ui/core"
 function BeanBox() {
   return (
-    <div className="BeanBox">
-      
+    <div className="beanBox">
+      <form>
+        <div className="beanBox__input">
+          <Avatar />
+          <input placeholder="What you learned today?"></input>
+        </div>
+        <Button>CoolBeans</Button>
+      </form>
     </div>
   )
 }
