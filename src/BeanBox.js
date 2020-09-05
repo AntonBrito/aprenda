@@ -8,9 +8,9 @@ function BeanBox() {
         <div className="beanBox__input">
           <Avatar />
           <input placeholder="Bean of the day?"></input>
-          <input placeholder="Enter an img URL"></input>
+          <input placeholder="Add an img"></input>
         </div>
-        <Button>CoolBeans</Button>
+        <Button className="addBean">AddBeans</Button>
       </form>
     </div>
   )
