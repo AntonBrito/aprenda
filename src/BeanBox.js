@@ -7,11 +7,12 @@ function BeanBox() {
       <form>
         <div className="beanBox__input">
           <Avatar />
-          <input placeholder="Bean of the day?"/>
+          <input placeholder="Bean of the day"
+          type="text"/>
         </div>
         <input 
         className="beanBox_inputImage"
-        placeholder="Add an img"
+        placeholder="Optional:Add an img"
         type="text" />
         <Button className="add__coolBean">AddBeans</Button>
       </form>
