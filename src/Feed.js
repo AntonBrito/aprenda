@@ -1,6 +1,7 @@
 import React from 'react';
 import './Feed.css';
-import  BeanBox from "./BeanBox"
+import  BeanBox from "./BeanBox";
+import Post from "./Post"
 
 function Feed() {
   return (
@@ -13,6 +14,7 @@ function Feed() {
       {/*BeanBox*/}
       <BeanBox />
       {/*Post*/}
+      <Post />
       {/*Post*/}
     </div>
   )
