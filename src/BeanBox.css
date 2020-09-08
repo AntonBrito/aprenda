@@ -33,3 +33,7 @@
   margin-left: auto !important;
 }
 
+.beanBox_inputImage {
+  bordeR: none;
+  padding: 20px;
+}
