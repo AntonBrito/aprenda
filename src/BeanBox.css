@@ -1,4 +1,15 @@
 .beanBox {
   padding-bottom: 10px;
-  border-bottom: 8px solid var(--twitter-background)
+  border-bottom: 8px solid var(--twitter-background);
+  padding-right: 10px;
+}
+
+.beanBox > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.beanBox__input {
+  padding: 20px;
+  display: flex;
 }
