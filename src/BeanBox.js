@@ -10,7 +10,7 @@ function BeanBox() {
           <input placeholder="Bean of the day?"></input>
           <input placeholder="Add an img"></input>
         </div>
-        <Button className="addBean">AddBeans</Button>
+        <Button className="add__coolBean">AddBeans</Button>
       </form>
     </div>
   )
