@@ -1,5 +1,6 @@
 import React from 'react';
 import './Post.css'
+import { Avatar } from "@material-ui/core"
 
 function Post(
   displayName,
@@ -11,7 +12,9 @@ function Post(
 ) {
   return (
     <div className="post">
-      
+      <div className="post__avatar">
+        <Avatar />
+      </div>
     </div>
   )
 }
