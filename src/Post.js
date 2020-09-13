@@ -5,7 +5,8 @@ import  VerifiedUserIcon from "@material-ui/icons/VerifiedUser"
 import ChatBubbleOutlineIcon from "@material-ui/icons/ChatBubbleOutlineOutlined";
 import RepeatIcon from "@material-ui/icons/Repeat";
 import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
-import PublishIcon from "@material-ui/icons/Publish"
+import PublishIcon from "@material-ui/icons/Publish";
+
 function Post(
   displayName,
   username,
@@ -19,7 +20,7 @@ function Post(
       <div className="post__avatar">
         <Avatar />
       </div>
-      <div classNAme="post__body">
+      <div className="post__body">
         <div className="post__header">
           <div className="post__headerText">
             <h3>
