@@ -1,6 +1,5 @@
 import React from 'react'
 import './Sidebar.css';
-import WbIncandescentIcon from '@material-ui/icons/WbIncandescent';
 import HomeIcon from '@material-ui/icons/Home';
 import SidebarOption from './SidebarOption';
 import PageviewIcon from '@material-ui/icons/Pageview';
@@ -16,8 +15,6 @@ import { Button } from "@material-ui/core"
 function Sidebar() {
   return (
     <div className="sidebar">
-      <WbIncandescentIcon className="sidebar__lampIcon"/>
-      
       <SidebarOption Icon={HomeIcon} text="Home"/>
       <SidebarOption Icon={PageviewIcon} text="Explore"/>
       <SidebarOption Icon={NotificationsActiveIcon} text="Notifications"/>

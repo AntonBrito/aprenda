@@ -15,6 +15,12 @@ function Feed() {
       <BeanBox />
       {/*Post*/}
       <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
       {/*Post*/}
     </div>
   )
