@@ -21,7 +21,7 @@ function Post(
       </div>
       <div classNAme="post__body">
         <div className="post__header">
-          <div className="post__text">
+          <div className="post__headerText">
             <h3>
               Anton Brito {""}
               <span className="post__headerSpecial">
