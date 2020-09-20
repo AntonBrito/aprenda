@@ -1,22 +1,27 @@
 import React from 'react';
 import "./BeanBox.css"
 import { Avatar, Button } from "@material-ui/core"
+
 function BeanBox() {
+
+  const changeHandler = (e) => {
+    console.log('changed');
+  }
   return (
-    <div className="beanBox">
+    <form className="beanBox">
       <form>
         <div className="beanBox__input">
           <Avatar />
           <input placeholder="Bean of the day"
           type="text"/>
+          <input type="file" onChange={changeHandler} />
         </div>
         <input 
-        className="beanBox_inputImage"
-        placeholder="Optional:Add an img"
+        placeholder="Optional:Project Detail"
         type="text" />
-        <Button className="add__coolBean">AddBeans</Button>
+        <Button className="add__coolBean">Publish</Button>
       </form>
-    </div>
+    </form>
   )
 }
 
