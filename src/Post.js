@@ -31,7 +31,7 @@ function Post(
             </h3>
           </div>
           <div className="post__headerDescription">
-            <p>What did you lear that you want share</p>
+            <p>What did you lear that you want to share</p>
           </div>
         </div>
         <img src="https://media.giphy.com/media/XR9Dp54ZC4dji/giphy.gif" 
