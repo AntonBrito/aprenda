@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import './ChatChat.css';
 
 export class ChatChat extends Component {
   render() {
