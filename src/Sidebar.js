@@ -16,15 +16,9 @@ function Sidebar() {
   return (
     <div className="sidebar">
       <SidebarOption Icon={HomeIcon} text="Home"/>
-      <SidebarOption Icon={PageviewIcon} text="Explore"/>
-      <SidebarOption Icon={NotificationsActiveIcon} text="Notifications"/>
       <SidebarOption Icon={PersonIcon} text="My Profile"/>
       <SidebarOption Icon={FolderSharedIcon} text="My Beans"/>
       <SidebarOption Icon={BookmarkBorderIcon} text="My Bookmarks"/>
-      <SidebarOption Icon={MoreHorizIcon} text="More"/>
-
-      {/*Button to Add new Bean*/}
-      <Button variant="outlined" className="sidebar__aprenda">New Beans</Button>
     </div>
   )
 }
