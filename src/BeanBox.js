@@ -1,8 +1,10 @@
 import React from 'react';
-import "./BeanBox.css"
-import { Avatar, Button } from "@material-ui/core"
+import "./BeanBox.css";
+import { Avatar, Button } from "@material-ui/core";
 
-function BeanBox() {
+const BeanBox = () => {
+
+  const [file, setFile] = useState(null)
 
   const changeHandler = (e) => {
     let selected = e.target.files[0];
