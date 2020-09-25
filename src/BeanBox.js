@@ -4,11 +4,15 @@ import { Avatar, Button } from "@material-ui/core";
 
 const BeanBox = () => {
 
-  const [file, setFile] = useState(null)
+  const [file, setFile] = useState(null);
 
   const changeHandler = (e) => {
     let selected = e.target.files[0];
     console.log(selected);
+
+    if (selected) {
+      setFile(selected);
+    }
   }
   return (
     <form className="beanBox">
