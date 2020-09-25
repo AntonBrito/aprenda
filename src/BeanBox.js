@@ -5,7 +5,8 @@ import { Avatar, Button } from "@material-ui/core"
 function BeanBox() {
 
   const changeHandler = (e) => {
-    console.log('changed');
+    let selected = e.target.files[0];
+    console.log(selected);
   }
   return (
     <form className="beanBox">
