@@ -6,7 +6,7 @@ const BeanBox = () => {
 
   const [file, setFile] = useState(null);
 
-  const types = ['image/png']
+  const types = ['image/png', 'image/jpeg']
 
   const changeHandler = (e) => {
     let selected = e.target.files[0];
